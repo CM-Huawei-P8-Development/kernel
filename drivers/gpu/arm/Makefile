@@ -7,5 +7,5 @@ endif
 endif
 
 ifdef CONFIG_ARCH_HI3XXX
-obj-y			+= malit6_64/
+obj-y			+= r8p0-01dev0/
 endif
