@@ -61,8 +61,8 @@ static struct kbase_io_resources io_resources = {
 };
 #endif /* CONFIG_OF */
 
-#define KBASE_HI3650_PLATFORM_GPU_REGULATOR_NAME      "gpu"
-#define KBASE_HI3635_GPU_IRDROP_ISSUE   0
+#define KBASE_HI3650_PLATFORM_GPU_REGULATOR_NAME      "g3d"
+#define KBASE_HI3635_GPU_IRDROP_ISSUE   1
 #if KBASE_HI3635_GPU_IRDROP_ISSUE
 #define KBASE_HI3635_GPU_TURBO_FREQ             360000000
 #endif /* KBASE_HI3635_GPU_IRDROP_ISSUE */

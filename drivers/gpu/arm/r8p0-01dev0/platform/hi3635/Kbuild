@@ -14,4 +14,4 @@
 
 
 
-obj-y += mali_kbase_config_hisilicon.o
+obj-y += mali_kbase_config_hi3635.o

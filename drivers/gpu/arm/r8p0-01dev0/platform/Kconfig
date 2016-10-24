@@ -17,7 +17,7 @@
 
 # Add your platform specific Kconfig file here
 #
-source "drivers/gpu/arm/r8p0-01dev0/platform/hisilicon/Kconfig"
+source "drivers/gpu/arm/r8p0-01dev0/platform/hi3635/Kconfig"
 #
 # Where xxx is the platform name is the name set in MALI_PLATFORM_THIRDPARTY_NAME
 #

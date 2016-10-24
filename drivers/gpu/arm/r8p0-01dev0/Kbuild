@@ -169,9 +169,9 @@ ifeq ($(CONFIG_MALI_PLATFORM_FAKE),y)
 		ccflags-y += -I$(src)/platform/a7_kipling
 	endif
 
-	ifeq ($(CONFIG_MALI_PLATFORM_HISILICON),y)
-                SRC += platform/hisilicon/mali_kbase_config_hisilicon.c
-                ccflags-y += -I$(src)/platform/hisilicon
+	ifeq ($(CONFIG_MALI_PLATFORM_HI3635),y)
+                SRC += platform/hi3635/mali_kbase_config_hi3635.c
+                ccflags-y += -I$(src)/platform/hi3635
 	endif
 	
 	ifeq ($(CONFIG_MALI_PLATFORM_THIRDPARTY),y)

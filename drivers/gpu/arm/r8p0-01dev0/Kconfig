@@ -167,8 +167,8 @@ config MALI_PLATFORM_FAKE
 #	bool "Third Party Platform"
 #endchoice
 
-config MALI_PLATFORM_HISILICON
-	bool "Hisilicon"
+config MALI_PLATFORM_HI3635
+	bool "Hisilicon 3635"
 	depends on MALI_MIDGARD && MALI_EXPERT
 	default y
 
