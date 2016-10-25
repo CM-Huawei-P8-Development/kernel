@@ -2705,6 +2705,10 @@ CONFIG_MALI_PLATFORM_HI3635=y
 # CONFIG_HISI_CS is not set
 # CONFIG_CONTROL_TRACE is not set
 # CONFIG_CNM_JPU is not set
+# CONFIG_MALI_PLATFORM_HI3635=y is enabled by default
+CONFIG_MALI_PM_DEMAND=y
+CONFIG_MALI_TIMELINE_DISABLED=y
+# MALI_CUSTOMER_RELEASE=y would probably save more power
 
 #
 # JPEG decode support
